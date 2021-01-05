@@ -1,0 +1,33 @@
+{
+  "name": "resumeg",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amahavishnua/ResumeG.git"
+  },
+  "keywords": [
+    "mahavishnu",
+    "resume"
+  ],
+  "author": "Vishnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amahavishnua/ResumeG/issues"
+  },
+  "homepage": "https://github.com/amahavishnua/ResumeG#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
