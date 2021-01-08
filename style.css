@@ -11,3 +11,14 @@ h1 {
 .navbar-dark {
   background-color: #121314;
 }
+@media (max-width: 572px) {
+  body {
+    font-size: 13px;
+  }
+  .jumbotron {
+    margin-top: 30px;
+  }
+  h5 {
+    font-size: 120%;
+  }
+}
