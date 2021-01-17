@@ -1,10 +1,10 @@
 h1 {
-  font-size: 150%;
+  font-size: 1.5em;
 }
 
 .head {
   font-family: "Open Sans", sans-serif;
-  font-size: 150%;
+  font-size: 1.5em;
   color: blue;
 }
 
@@ -13,12 +13,12 @@ h1 {
 }
 @media (max-width: 572px) {
   body {
-    font-size: 13px;
+    font-size: 13;
   }
   .jumbotron {
-    margin-top: 30px;
+    margin-top: 0.3em;
   }
   h5 {
-    font-size: 120%;
+    font-size: 1.2em;
   }
 }
