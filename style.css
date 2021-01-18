@@ -22,3 +22,9 @@ h1 {
     font-size: 1.2em;
   }
 }
+#imgG {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 11px 17px 41px -6px rgba(0, 0, 0, 1);
+}
