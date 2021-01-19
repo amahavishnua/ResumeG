@@ -25,9 +25,52 @@ h1 {
     font-size: 13;
   }
   .jumbotron {
-    margin-top: 1.2em;
+    margin-top: 1.7em;
   }
   h5 {
     font-size: 1.2em;
   }
+  #Area {
+    display: flex;
+    flex-direction: column;
+  }
+  #Area > .btn {
+    margin-top: 0.5em;
+  }
+}
+.growAnime:hover {
+  animation: Grow;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+@keyframes Grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+#Area > .btn {
+  margin-right: 0.5em;
+  margin-top: 0.7em;
+}
+.jumbotron {
+  padding-bottom: 0.5em;
+}
+#SkillTable > tbody > tr > td {
+  font-weight: 200;
+}
+#courseWork > div > div > div > dl > dt {
+  font-weight: 500;
+}
+#courseWork > div > div > div > dl > dd {
+  font-weight: 200;
+}
+#headContent {
+  font-weight: 200;
+}
+#projects {
+  font-weight: 200;
 }
